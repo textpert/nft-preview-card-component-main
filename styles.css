@@ -1,0 +1,165 @@
+body{
+
+  background-color: hsl(217, 54%, 11%);
+  font-family: 'Outfit', sans-serif;
+}
+
+h2{
+
+  margin: 10px;
+  color: hsl(0, 0%, 100%);
+  padding-left: 15px;
+  padding-top: 0;
+  margin-top: 0;
+}
+
+h2:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+p{
+
+  font-size: 18px;
+  color: hsl(215, 51%, 70%);
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+hr{
+  margin-top: 20px;
+  border-color: hsl(215, 32%, 27%);
+  width: 85%;
+  border: 1;
+
+
+}
+
+span{
+  padding-left: 15px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+}
+
+b{
+  color: hsl(0, 0%, 100%);
+}
+
+b:hover{
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.main{
+  margin-top: 100px;
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+.container{
+background-color: hsl(216, 50%, 16%);
+width:400px;
+border-radius: 25px;
+margin-bottom: 50px;
+height: 640px;
+}
+
+.middle-container{
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.middle-text-one{
+  color: hsl(178, 100%, 50%);
+  padding-left: 0;
+  padding-bottom: 2px;
+}
+
+.ether{
+  padding-left: 15px;
+  padding-right: 5px;
+color: hsl(178, 100%, 50%);
+padding-bottom: 25px;
+}
+
+.days{
+  padding-left: 140px;
+  padding-right: 5px;
+  padding-bottom: 25px;
+}
+.middle-text-two{
+color: hsl(215, 51%, 70%);
+padding-left: 0;
+}
+
+.main-img{
+  padding: 25px;
+  width: 350px;
+  border-radius: 35px;
+
+}
+
+.overlay{
+position: absolute;
+top:125px;
+left:545px;
+background: hsl(178, 100%, 50%);
+padding: 25px;
+width: 300px;
+border-radius: 10px;
+height: 300px;
+opacity: 0%;
+}
+
+.overlay-img{
+  position: absolute;
+  bottom:150px;
+  left:150px;
+  display: none;
+  /* opacity: 100%; */
+
+}
+
+.overlay:hover{
+  cursor: pointer;
+  opacity: 40%;
+}
+.overlay:hover .overlay-img{
+  display: block;
+  opacity: 100%;
+}
+
+
+.bottom-container{
+  margin-top: 20px;
+
+}
+
+.creator{
+  color:hsl(215, 51%, 70%);
+  padding-left: 30px;
+  padding-top: 10px;
+}
+
+.creator-text{
+  color:hsl(215, 51%, 70%);
+  padding-left: 0;
+  padding-bottom: 30px;
+  position: relative;
+  bottom:10px;
+}
+
+.avatar-img{
+  width: 30px;
+  border-radius: 100%;
+  border: 1px solid hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px; text-align: center;
+  color: hsl(228, 45%, 44%);
+}
